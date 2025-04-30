@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 def load_data():
     file_path = r"climate_debt_analyzer_top100_10yrs.xlsx"
     df = pd.read_excel(file_path)
+    file_path = "data/climate_debt_analyzer_top100_10yrs.xlsx"
     return df
 
 df = load_data()
