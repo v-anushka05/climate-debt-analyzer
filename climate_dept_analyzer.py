@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 # Load dataset
 def load_data():
-    file_path = r"C:\Users\KIIT\Desktop\minorproject\climate_debt_analyzer_top100_10yrs.xlsx"
+    file_path = r"climate_debt_analyzer_top100_10yrs.xlsx"
     df = pd.read_excel(file_path)
     return df
 
